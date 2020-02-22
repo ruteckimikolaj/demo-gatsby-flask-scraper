@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "cara",
+  "description": "Interview demo",
+  "version": "0.0.22",
+  "author": "LekoArts <hello@lekoarts.de>",
+  "license": "MIT",
+  "starter-name": "nba-scraper",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
+    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@lekoarts/gatsby-theme-cara": "^1.0.19",
+    "gatsby": "^2.13.72",
+    "gatsby-image": "^2.2.41",
+    "gatsby-plugin-manifest": "^2.2.41",
+    "gatsby-plugin-offline": "^3.0.35",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-transformer-sharp": "^2.3.14",
+    "gatsby-plugin-google-analytics": "^2.1.8",
+    "gatsby-plugin-netlify": "^2.1.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-chartist": "0.13.3",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
