@@ -59,6 +59,7 @@ typings/
 .env
 .env.*
 !.env.example
+venv
 
 .cache
 **/.cache

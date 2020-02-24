@@ -1,0 +1,114 @@
+{
+  "0": {
+    "home": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/phi.png&h=70&w=70",
+      "team": "76ers",
+      "record_overall": "35-22",
+      "away_record": "26-2"
+    },
+    "away": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/atl.png&h=70&w=70",
+      "team": "Hawks",
+      "record_overall": "17-41",
+      "away_record": "6-24"
+    }
+  },
+  "1": {
+    "home": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/wsh.png&h=70&w=70",
+      "team": "Wizards",
+      "record_overall": "20-35",
+      "away_record": "13-14"
+    },
+    "away": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/mil.png&h=70&w=70",
+      "team": "Bucks",
+      "record_overall": "48-8",
+      "away_record": "22-5"
+    }
+  },
+  "2": {
+    "home": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/cle.png&h=70&w=70",
+      "team": "Cavaliers",
+      "record_overall": "15-41",
+      "away_record": "7-22"
+    },
+    "away": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/mia.png&h=70&w=70",
+      "team": "Heat",
+      "record_overall": "36-20",
+      "away_record": "13-17"
+    }
+  },
+  "3": {
+    "home": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/bkn.png&h=70&w=70",
+      "team": "Nets",
+      "record_overall": "26-29",
+      "away_record": "16-12"
+    },
+    "away": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/orl.png&h=70&w=70",
+      "team": "Magic",
+      "record_overall": "24-32",
+      "away_record": "9-18"
+    }
+  },
+  "4": {
+    "home": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/hou.png&h=70&w=70",
+      "team": "Rockets",
+      "record_overall": "36-20",
+      "away_record": "19-8"
+    },
+    "away": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/ny.png&h=70&w=70",
+      "team": "Knicks",
+      "record_overall": "17-39",
+      "away_record": "9-19"
+    }
+  },
+  "5": {
+    "home": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/dal.png&h=70&w=70",
+      "team": "Mavericks",
+      "record_overall": "34-23",
+      "away_record": "15-14"
+    },
+    "away": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/min.png&h=70&w=70",
+      "team": "Timberwolves",
+      "record_overall": "16-39",
+      "away_record": "9-18"
+    }
+  },
+  "6": {
+    "home": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/utah.png&h=70&w=70",
+      "team": "Jazz",
+      "record_overall": "36-20",
+      "away_record": "20-7"
+    },
+    "away": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/phx.png&h=70&w=70",
+      "team": "Suns",
+      "record_overall": "23-34",
+      "away_record": "12-16"
+    }
+  },
+  "7": {
+    "home": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lac.png&h=70&w=70",
+      "team": "Clippers",
+      "record_overall": "37-19",
+      "away_record": "22-6"
+    },
+    "away": {
+      "image": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/mem.png&h=70&w=70",
+      "team": "Grizzlies",
+      "record_overall": "28-28",
+      "away_record": "12-15"
+    }
+  }
+}

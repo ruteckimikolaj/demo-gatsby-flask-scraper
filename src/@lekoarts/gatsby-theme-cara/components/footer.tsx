@@ -32,7 +32,7 @@ const Footer = () => {
       >
         {` `}
         <Styled.a
-          aria-label="Link to the theme's GitHub repository"
+          aria-label="Link to"
           sx={{ ml: 2 }}
           href="https://nba.com"
         >
@@ -40,7 +40,7 @@ const Footer = () => {
         </Styled.a>
         <div sx={{ mx: 1 }}>by</div>
         {` `}
-        <Styled.a aria-label="Link to the theme author's website" href="https://www.lekoarts.de/en">
+        <Styled.a aria-label="Link to the theme author's website" href="https://www.google.com">
           Mikolaj Rutecki
         </Styled.a>
       </Flex>
