@@ -19,6 +19,7 @@ module.exports = {
     siteLanguage: `en`,
     // Used for og:image and must be placed inside the `static` folder
     siteImage: `/banner.jpg`,
+    siteUrl: `localhost:8000`
     // Twitter Handle
   },
   plugins: [
@@ -81,6 +82,14 @@ module.exports = {
           include: /svg/
         }
       }
+    },
+    {
+      resolve: 'gatsby-source-rest-api',
+      options: {
+        endpoints: [
+          'http://127.0.0.1:5000/api'
+        ],
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`

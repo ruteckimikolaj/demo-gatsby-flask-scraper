@@ -24,7 +24,7 @@ class ScrapNBA:
         session = HTMLSession()
         r = session.get(self.url)
         print('Preparing HTML with JS')
-        r.html.render(retries=5, wait=1)
+        r.html.render(retries=5, wait=100)
         print('Finished in {}'.format(time()-time()))
         return r.html
 
@@ -53,15 +53,17 @@ class ScrapNBA:
 
     def get_all_data(self, articles):
         start = time()
-        json_result = {}
-        for idx, article in enumerate(articles):
+        list_result = []
+        for article in articles:
+            row_data = {'home': {}, 'away': {}}
             away = article.find('tbody').find('tr', {'class': 'away'})
             home = article.find('tbody').find('td', {'class': 'home'})
-            json_result.update({idx: {'home': {}, 'away': {}}})
-            json_result[idx]['home'] = self.get_away_home(home, 'home')
-            json_result[idx]['away'] = self.get_away_home(away, 'away')
+            row_data['home'] = self.get_away_home(home, 'home')
+            row_data['away'] = self.get_away_home(away, 'away')
+            list_result.append(row_data)
         print('Scraped articles in {}'.format(time()-start))
         print('Writing a file.json')
+        json_result = {'data': list_result}
         with open('file.json', 'w', encoding='UTF-8') as new_file:
             json.dump(json_result, new_file)
         print('Starting again...')

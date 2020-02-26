@@ -8,19 +8,45 @@
 1. **Preparation**
 
 ```sh
+mkdir project-name
+cd project-name
 git clone
+```
+*GATSBY*
+
+```
 npm install
 ```
-
-2. **Start developing.**
-
-Navigate into your new site's directory and start it up.
+*Flask*
 
 ```sh
-cd project-name
+cd flask_project
+pip install -r requirements.txt
+```
+2. **Start developing.**
+
+To start gatsby develop server just type:
+
+```sh
 gatsby develop
 ```
 
+To start flask server just type:
+
+```sh
+flask run
+```
+
+To start webscraper:
+
+```sh
+python app/bs_scraper
+```
+
+
+
 3. **Open the code and start customizing!**
 
-Your site is now running at `http://localhost:8000`!
+Your 'gatsby' site is now running at `http://localhost:3000`
+
+Your flask api is now running at `http://localhost:500/api`

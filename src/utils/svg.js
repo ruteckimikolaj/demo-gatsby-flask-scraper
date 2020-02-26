@@ -1,10 +1,7 @@
 import React from "react"
 
-import {graphql, useStaticQuery} from "gatsby";
 import Icon from "../svg/newNBA.svg"
-import {hidden} from "@lekoarts/gatsby-theme-cara/src/styles/utils";
 
-console.log(Icon);
 const NBASvg = ({
                     width = '100%',
                     height = '15%',
