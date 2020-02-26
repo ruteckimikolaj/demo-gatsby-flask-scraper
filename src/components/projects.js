@@ -8,18 +8,17 @@ import {UpDown, UpDownWide} from "@lekoarts/gatsby-theme-cara/src/styles/animati
 // @ts-ignore
 import NBASvg from "../utils/svg"
 import React, {useEffect, useState} from "react";
-import {graphql} from "gatsby";
 import ProjectCard from "../@lekoarts/gatsby-theme-cara/components/project-card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import Pagination from "react-bootstrap/Pagination";
 
+const url = process.env.GATSBY_API_URL;
 
 const Projects = ({offset}) => {
   const [dataFromApi, setDataFromApi] = useState(0);
   useEffect(() => {
-    fetch(`http://127.0.0.1:5000/api`)
+    fetch(url)
       .then(response => response.json()) // parse JSON from request
       .then(resultData => {
         setDataFromApi(resultData.data.slice(0,6));
@@ -121,30 +120,5 @@ const Projects = ({offset}) => {
     </div>
   )
 }
-
-export const query = graphql`
-query {
-  allRestApiApi {
-    edges {
-      node {
-        data {
-          away {
-            away_record
-            image
-            record_overall
-            team
-          }
-          home {
-            away_record
-            image
-            record_overall
-            team
-          }
-        }
-      }
-    }
-  }
-}
-`
 
 export default Projects
