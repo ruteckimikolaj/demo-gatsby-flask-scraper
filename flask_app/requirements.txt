@@ -4,4 +4,4 @@ Flask==1.1.1
 requests==2.23.0
 lxml==4.5.0
 requests-html==0.10.0
-flask-cors-3.0.8
+flask-cors==3.0.8
